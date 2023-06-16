@@ -1,0 +1,68 @@
+#root {
+  max-width: 1440x;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+:root {
+  --background-color: hsl(0, 0%, 90%);
+}
+body {
+  background-color: var(--background-color);
+}
+.container {
+  border: 3px solid hsl(0, 0%, 88%);
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 90%);
+  width: 500px;
+}
+.dark-container {
+  border: 3px solid hsl(268, 75%, 8%);
+  border-radius: 10px;
+  background-color: hsl(268, 75%, 9%);
+  width: 500px;
+}
+header {
+  color: hsl(52, 100%, 62%);
+  padding-bottom: 9px;
+  height: 50px;
+  text-align: left;
+}
+.display {
+  color: hsl(60, 10%, 19%);
+  font-size: 45px;
+  font-weight: bolder;
+  text-align: end;
+  padding: 20px;
+  background-color: hsl(0, 0%, 93%);
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.dark-display {
+  color: hsl(52, 100%, 62%);
+  font-size: 45px;
+  font-weight: bolder;
+  text-align: end;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: hsl(268, 71%, 12%);
+  border-radius: 10px;
+}
+.buttons-container {
+  border-radius: 10px;
+  background-color: hsl(0, 5%, 81%);
+  padding: 15px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.dark-buttons-container {
+  border-radius: 10px;
+  background-color: hsl(268, 71%, 12%);
+  padding: 15px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}

@@ -1,0 +1,97 @@
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.5em;
+  font-size: 30px;
+  font-weight: 800;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: black;
+  margin: 10px;
+}
+
+#dark-reset {
+  grid-column: 1 / 3;
+  grid-row: 5;
+}
+
+#dark-equals {
+  background-color: hsl(176, 100%, 44%);
+  box-shadow: 0px 1px 2px hsl(177, 92%, 70%);
+  color: hsl(268, 75%, 9%);
+  grid-column: 5 / 3;
+  grid-row: 5;
+}
+#dark-equals:hover {
+  background-color: hsl(176, 78%, 57%);
+}
+
+#dark-equals:active {
+  box-shadow: 0px 2px 5px hsl(177, 59%, 47%);
+}
+
+#button-equals {
+  background-color: hsl(25, 98%, 40%);
+  box-shadow: 0px 1px 2px hsl(25, 99%, 27%);
+  color: hsl(0, 0%, 100%);
+  grid-column: 5 / 3;
+  grid-row: 5;
+}
+#button-equals:hover {
+  background-color: hsl(25, 74%, 47%);
+}
+#button-equals:active {
+  box-shadow: 0px 2px 5px hsl(60, 10%, 19%);
+}
+.dark-number {
+  background-color: hsl(268, 47%, 21%);
+  box-shadow: 0px 1px 2px hsl(290, 38%, 27%);
+  color: hsl(52, 100%, 62%);
+}
+.dark-number:hover {
+  background-color: hsl(268, 41%, 31%);
+}
+.dark-number:active {
+  box-shadow: 0px 2px 5px hsl(60, 10%, 19%);
+}
+.button-white {
+  background-color: hsl(45, 7%, 89%);
+  box-shadow: 0px 1px 2px hsl(35, 11%, 61%);
+  color: hsl(60, 10%, 19%);
+}
+.button-white:hover {
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0px 1px 2px hsl(35, 11%, 61%);
+  color: hsl(60, 10%, 19%);
+}
+.button-white:active {
+  box-shadow: 0px 2px 5px hsl(60, 10%, 19%);
+}
+.dark-blue-number {
+  background-color: hsl(281, 89%, 26%);
+  box-shadow: 0px 1px 2px hsl(285, 79%, 45%);
+  color: hsl(30, 25%, 89%);
+}
+.dark-blue-number:hover {
+  background-color: hsl(281, 59%, 38%);
+}
+.dark-blue-number:active {
+  box-shadow: 0px 2px 5px hsl(60, 10%, 19%);
+}
+.button-blue {
+  background-color: hsl(185, 42%, 37%);
+  box-shadow: 0px 1px 2px hsl(185, 58%, 25%);
+  color: hsl(0, 0%, 100%);
+}
+
+.button-blue:hover {
+  background-color: hsl(185, 30%, 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: 0px 1px 2px hsl(60, 10%, 19%);
+}
+
+.button-blue:active {
+  background-color: hsl(185, 30%, 48%);
+  box-shadow: 0px 2px 5px hsl(60, 10%, 19%);
+}
