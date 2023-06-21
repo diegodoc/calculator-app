@@ -29,7 +29,11 @@ function App() {
       setResult(calculatedResult.toString());
     }
   };
-
+  const isFirstCharacterSymbol = (str) => {
+    let firstCharacter = str.charAt(0);
+    let symbolRegex = /[/\*]/;
+    return symbolRegex.test(firstCharacter);
+  };
   const isLastCharacterSymbol = (str) => {
     let lastCharacter = str.charAt(str.length - 1);
     let symbolRegex = /[+\-\/\*]/;
@@ -39,6 +43,8 @@ function App() {
 
   const handleNumbers = (value) => {
     if (isLastCharacterSymbol(result) && isLastCharacterSymbol(value)) {
+      setResult(result);
+    } else if (isFirstCharacterSymbol(value) && result=='0') {
       setResult(result);
     } else {
       result == "0" ? setResult(value) : setResult(result + value);
